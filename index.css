@@ -1,0 +1,47 @@
+body{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #080402;
+    color: white;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid whitesmoke;
+    padding: 50px;
+    box-shadow: #ffffff57 0px 0px 10px 7px;
+    box-sizing: border-box;
+    width: 500px;
+    max-width: 500px;
+}
+.title{
+    font-size: 25px;
+}
+button{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    background-color: #080402;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+button:hover{
+    background-color: rgb(119, 118, 118);
+    border-radius: 10px;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    font-size: 45px;
+}
+.alive{
+    display: none;
+}
